@@ -22,7 +22,7 @@ function App() {
     setError(null);
 
     try {
-      const data = await fetcImages(seachQuery);
+      const data = await fetchImages(seachQuery);
       setImages(data.results);
       setPage(1);
     } catch (error: any) {
