@@ -1,5 +1,5 @@
 import ReactModal from "react-modal";
-import styles from "./ImageModal.modal.css";
+import styles from "./ImageModal.module.css";
 import { ImageModalProps } from "./ImageModal.types";
 
 ReactModal.setAppElement("#root");
