@@ -1,0 +1,15 @@
+.loadMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.loadMoreButton {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}

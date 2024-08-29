@@ -1,0 +1,35 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 20px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.closeButton:hover {
+  color: #c9d5d5;
+  box-shadow: 0 0 10px rgba(237, 241, 241, 0.488);
+}
+
+.image {
+  width: 100%;
+  max-height: calc(100vh - 100px);
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
