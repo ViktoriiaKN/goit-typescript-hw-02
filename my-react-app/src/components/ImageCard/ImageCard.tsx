@@ -1,5 +1,5 @@
 import styles from "./ImageCard.module.css";
-import { ImageCardProps } from "./ImageCard.types"; // Імпорт типів
+import { ImageCardProps } from "./ImageCard.types";
 
 const ImageCard: React.FC<ImageCardProps> = ({ image, handleImageClick }) => {
   return (
@@ -7,7 +7,7 @@ const ImageCard: React.FC<ImageCardProps> = ({ image, handleImageClick }) => {
       <img
         src={image.urls.small}
         alt={image.alt_description}
-        onClick={() => handleImageClick(image)} // Передаємо зображення при кліку
+        onClick={() => handleImageClick(image)}
       />
     </div>
   );
